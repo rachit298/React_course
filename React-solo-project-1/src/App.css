@@ -1,0 +1,113 @@
+body {
+  min-height: 100vh;
+  background-color: #23252c;
+  font-family: Inter;
+  font-weight: 200;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto;
+  color: white;
+  background-color: rgba(26, 27, 33, 1);
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.id {
+  width: 400px;
+}
+
+.name-and-role {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fullname {
+  margin-bottom: -15px;
+  letter-spacing: -0.05em;
+}
+
+.role {
+  color: rgba(243, 191, 153, 1);
+  font-size: small;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+button {
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button svg {
+  width: 25px;
+  margin-top: 5px;
+}
+
+.gmail-btn a {
+  color: black;
+}
+
+.linkedin-btn {
+  background-color: rgba(80, 147, 226, 1);
+  color: white;
+}
+
+.linkedin-btn a {
+  color: white;
+}
+
+.buttons a {
+  text-decoration: none;
+  position: relative;
+  top: -5px;
+  padding-left: 7px;
+}
+
+.about {
+  width: 320px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.about-title {
+  margin-top: 30px;
+}
+
+.about-content,
+.interest-content {
+  font-size: x-small;
+  margin-top: -20px;
+}
+
+.interest {
+  width: 320px;
+  margin: -10px auto;
+  text-align: justify;
+}
+
+.footer {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.footer svg {
+  width: 30px;
+  margin: 0 20px 0;
+}
